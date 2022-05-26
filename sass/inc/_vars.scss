@@ -1,0 +1,36 @@
+$text: #000;
+$main: #3c6;
+
+$bodyfontsize: 16px;
+$bodyfont: 'Heebo', sans-serif, sans-serif;
+$containerWidth: 1200px;
+
+@mixin desktop-md {
+	@media (max-width: $containerWidth) {
+		@content;
+	}
+}
+
+@mixin tablet-md-1024 {
+	@media (max-width: 1024px) {
+		@content;
+	}
+}
+
+@mixin tablet-sm-768 {
+	@media (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin mobile-md-640 {
+	@media (max-width: 640px) {
+		@content;
+	}
+}
+
+@mixin mobile-sm-480 {
+	@media (max-width: 480px) {
+		@content;
+	}
+}

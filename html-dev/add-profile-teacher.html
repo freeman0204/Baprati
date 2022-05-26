@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru" dir="rtl">
+
+//= parts/head
+
+<body>
+
+//= parts/header
+
+<div class="wrapper">
+	<main>
+		<section class="top_option">
+			<div class="container">
+				<ul class="breadcrumbs">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						Add Profile
+					</li>
+				</ul>
+				<div class="wrap_title">
+					<a href="#" class="btn btn_border btn_back">
+						<span class="icon">
+								<img src="img/btn_arr_right.svg" alt="">
+						</span>
+						Back</a>
+					<h1 class="title_h1 title_h1_2">Add Profile</h1>
+				</div>
+			</div>
+		</section>
+		<section class="add_profile" id="demo">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+						<div class="step-app">
+							<ul class="step-steps steps_css">
+								<li data-step-target="step1">
+									<div class="number_css">1</div>
+									Personal Info
+								</li>
+								<li data-step-target="step2">
+									<div class="number_css">2</div>
+									Lesson Details
+								</li>
+								<li data-step-target="step3">
+									<div class="number_css">3</div>
+									Way of Teaching
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+						<div class="module__profile">
+							<div class="step-app">
+								<div class="step-content">
+									<div class="step-tab-panel" data-step="step1">
+										<div class="body_profile">
+											<div class="row">
+												<div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+													<fieldset>
+														<label>Name</label>
+														<input type="text" class="input_def_2" placeholder="George Wilson">
+													</fieldset>
+													<fieldset>
+														<label>Gender</label>
+														<div class="wrap_input">
+															<label class="module__radio">
+																<input type="radio" name="privacy_policy">
+																<span class="check"></span>
+																<span class="text">Female</span>
+															</label>
+															<label class="module__radio">
+																<input type="radio" name="privacy_policy2" checked>
+																<span class="check"></span>
+																<span class="text">Male</span>
+															</label>
+														</div>
+													</fieldset>
+													<fieldset>
+														<label>Date of Birth</label>
+														<input type="text" class="input_def_2 datepicker_new datepicker_css" value="23 Jun, 1970">
+													</fieldset>
+													<fieldset class="fieldset_link_add">
+														<label>Educational Institution</label>
+														<input type="text" class="input_def_2" placeholder="Tel Aviv University">
+													</fieldset>
+													<a href="#" class="link_add">Add Institution</a>
+												</div>
+												<div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+													<div class="man_photo">
+														<div class="photo">
+															<img src="img/man_photo.svg" alt="">
+														</div>
+														<div class="button-wrapper">
+															<span class="label">
+																Upload Photo
+															</span>
+															<input type="file" name="upload" id="upload" class="upload-box"
+																		 placeholder="Upload Photo">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="step-tab-panel" data-step="step2">
+										<div class="body_profile">
+											<fieldset>
+												<label>Study Subjects</label>
+												<select class="select_def_2">
+													<option value="">Mathematics</option>
+													<option value="">Mathematics</option>
+													<option value="">Mathematics</option>
+												</select>
+												<select class="select_def_2">
+													<option value="">Geometry</option>
+													<option value="">Geometry</option>
+													<option value="">Geometry</option>
+												</select>
+												<div class="wrap_item">
+													<div class="module__item_sel">
+														<div class="icon">
+															<img src="img/remove_item.svg" alt="">
+														</div>
+														Algebra
+													</div>
+												</div>
+											</fieldset>
+											<fieldset>
+												<label>Opening Sentence</label>
+												<textarea class="textarea" placeholder="Opening Sentence"></textarea>
+												<div class="info_text">This sentence will appear first in your profile, it should be short</div>
+											</fieldset>
+											<fieldset>
+												<label>General Description</label>
+												<textarea class="textarea" placeholder="General Description"></textarea>
+												<div class="info_text">This sentence will appear first in your profile, it should be short</div>
+											</fieldset>
+										</div>
+									</div>
+									<div class="step-tab-panel" data-step="step3">
+										<div class="body_profile">
+											<div class="item_s">
+												<h4 class="title_h4">Online Lessons</h4>
+												<fieldset>
+													<label class="module__check module__check_2 module__check_3">
+														<input type="checkbox" name="privacy_policy" checked>
+														<span class="check"></span>
+														<span class="text">I would like to teach online</span>
+													</label>
+												</fieldset>
+												<fieldset>
+													<label>Price (per hour)</label>
+													<input type="number" placeholder="20.00" class="input_def_2 zig_zag">
+												</fieldset>
+											</div>
+											<div class="item_s">
+												<h4 class="title_h4">Frontal Lessons</h4>
+												<fieldset>
+													<label>Cities</label>
+													<input type="text" class="input_def_2 city" placeholder="City">
+													<div class="wrap_item">
+														<div class="module__item_sel">
+															<div class="icon">
+																<img src="img/remove_item.svg" alt="">
+															</div>
+															Tel Aviv
+														</div>
+													</div>
+												</fieldset>
+												<fieldset>
+													<label>Price (per hour)</label>
+													<div class="wrap_input_2">
+														<label class="module__radio">
+															<input type="radio" name="privacy_policy" checked>
+															<span class="check"></span>
+															<span class="text">Student House</span>
+														</label>
+														<input type="number" placeholder="20.00" class="input_def_2 zig_zag">
+													</div>
+													<div class="wrap_input_2">
+														<label class="module__radio">
+															<input type="radio" name="privacy_policy">
+															<span class="check"></span>
+															<span class="text">Teacher House</span>
+														</label>
+														<input type="number" placeholder="20.00" class="input_def_2 zig_zag disabled">
+													</div>
+												</fieldset>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="step-footer">
+									<button data-step-action="next" class="btn">Next</button>
+									<button data-step-action="finish" class="btn">Save</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	//= parts/footer
+</div>
+
+</body>
+</html>

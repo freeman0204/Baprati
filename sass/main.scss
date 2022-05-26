@@ -1,0 +1,24 @@
+@import 'inc/default';
+@import 'inc/fonts';
+@import 'inc/vars';
+@import 'bootstrap/bootstrap';
+
+body {
+	color: $text;
+	font-size: $bodyfontsize;
+	font-family: $bodyfont;
+}
+
+@import 'layout';
+
+main {
+	position: relative;
+	overflow: hidden;
+}
+
+@import 'parts/header';
+
+
+@import 'parts/footer';
+
+@import 'media-extra';
